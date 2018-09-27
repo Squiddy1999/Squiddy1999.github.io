@@ -17,6 +17,10 @@ h2 {
 	margin-right: auto;
 	margin-left: auto;
 	width: 25%;
+	border: 4px solid #2090aa;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
 }
 
 #sneaky_gif{
@@ -27,6 +31,6 @@ h2 {
 	width: 10%;
 }
 
-#audio{
-	dispaly: block;
+#playAudio{
+	dispaly: inline;
 }

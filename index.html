@@ -13,9 +13,17 @@
     <img src="tf2 construction gif.gif" alt="Under Construciton!" id="construction_gif">
     <img src="sneaky csgo gif.gif" alt="Shhhh" id="sneaky_gif" style="float: left; margin: 0px 15px 15px 0px;">
     <img src="sneaky csgo gif.gif" alt="Shhhh" id="sneaky_gif2" style="float: right; margin: 0px 15px 15px 0px;">
-    
-    <audio controls autoplay volume="0.1" id="audio">
+
+    <iframe src="silence.mp3" allow="autoplay" volume="0.1" id="audio" style="display:none"></iframe>
+
+    <audio autoplay loop volume="0.1" id="playAudio">
         <source src="music.mp3" type="audio/mp3" />
     </audio>
+
+    <script>
+        var audio = document.getElementById("playAudio");
+        audio.volume = 0.1;
+    </script>
+
 </body>
 </html>
