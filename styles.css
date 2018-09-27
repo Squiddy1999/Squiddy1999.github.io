@@ -6,10 +6,12 @@ h1 {
 	color:darkslategray;
 	border:2px solid darkslategrey;
 	text-align:center;
+	font-family: 'Yatra One', cursive;
 }
 h2 {
 	color: darkslategrey;
 	text-align:center;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #construction_gif{
