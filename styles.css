@@ -11,3 +11,22 @@ h2 {
 	color: darkslategrey;
 	text-align:center;
 }
+
+#construction_gif{
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 25%;
+}
+
+#sneaky_gif{
+	width: 10%;
+}
+
+#sneaky_gif2{
+	width: 10%;
+}
+
+#audio{
+	dispaly: block;
+}
